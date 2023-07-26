@@ -1,0 +1,147 @@
+@charset "ISO-8859-1";
+
+body {
+ background-color: #FFFFFF;
+ }
+h1 {
+color: #FFFFFF;
+ text-align: center;
+ font-family: arial;
+}
+#favorito {
+border: 1px solid #99c; 
+color: #1ABC9C;
+}
+.destacado {
+ font-weight: bold;
+ color: orange;
+ text-align: right;
+}
+
+p {
+ font-family: Avenue;
+ font-size:20px;
+text-align: justify;
+}
+ 
+ header, nav, article, footer{
+border:5px solid black;
+display: block;
+}
+
+header {
+ background-color: #2271b3;
+ padding: 20px 10px;
+}
+
+nav {
+ overflow: hidden;
+ background-color: #00aae4;
+ padding: 10px 5px;
+}
+
+.agrupar
+{
+border:1px;
+margin: auto;
+width:960px;
+}
+
+section { 
+margin:20px;
+width: 600px;
+float:left;
+background: #FFFFFF ;
+}
+
+aside{
+margin: 15px;
+padding: 40px;
+width:175px;
+border: 1px;
+float:right;
+background: #F8F1FF;
+align-items: center;
+}
+
+footer {
+ overflow: hidden;
+ background-color: #00aae4;
+ padding: 30px 20px;
+ text-align: center;
+ 
+}
+
+footer {
+ overflow: hidden;
+ background-color: #00aae4;
+ padding: 10px 5px;
+ text-align: center;
+ clear:both;
+}
+
+footer li{
+list-style: none;
+font:bold 25px Milligram;
+padding: 10px;
+display: inline-block;
+}
+
+nav a {
+ float: left;
+ color: white;
+ text-align: center;
+ padding: 12px;
+ text-decoration: underline;
+ font-size: 18px; 
+ line-height: 25px;
+ border-radius: 4px;
+}
+
+
+nav a:hover {
+ background-color: white;
+ border:1px solid gray;
+ color: black;
+}
+
+nav a.active {
+ color: black;
+}
+
+
+.caja{
+	font-family:'Courier New', Courier, monospace;
+	font-weight: bold;
+	width: 200px;
+	height: 200px;
+	line-height_ :120px;
+	text-align: center;
+	margin: 6px;
+	float: left;
+}
+
+.caja1{
+	font-family:'Courier New', Courier, monospace;
+	font-weight: bold;
+	width: 200px;
+	height: 200px;
+	line-height_ :120px;
+	text-align: center;
+	margin: 6px;
+	float: left;
+}
+
+.flex{
+	border: 2px solid black;
+	background: #FFFFFF;
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 80%;
+	margin: 0 auto;
+	height: 300px;
+}
+
+ 
